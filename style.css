@@ -1,0 +1,208 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: black;
+    font-family: "Oswald";
+    font-weight: 700;
+    font-style: normal;
+    color: #ffff;
+    padding-bottom: 10px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url(picturez/Back1.png);
+    background-size: cover;
+    height: 720px;
+    display: flex;
+}
+
+.header-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+}
+
+.aboutus  {
+    margin-top: 120px;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    align-items: flex-start;
+    gap: 264px;
+}
+
+.h1 {
+    font-size: 30px;
+}
+
+.h2 {
+    font-size: 25px;
+    margin: 32px 0 18px 0;
+}
+
+.text {
+    text-align: justify;
+    font-style: italic;
+    color:#e3e3e3;
+    flex: 1;
+}
+
+.Agress-Pic {
+    margin-top: 150px;
+    margin-left: 450px;
+}
+
+.card {
+    width: 225px;
+    min-height: 350px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    transition: 0.2s;
+    position: relative;
+  }
+
+  .card2 {
+    width: 225px;
+    min-height: 350px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    transition: 0.2s;
+    position: relative;
+  }
+
+  .card3 {
+    width: 225px;
+    min-height: 350px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    transition: 0.2s;
+    position: relative;
+  }
+
+  .card__top {
+    flex: 0 0 220px; 
+    position: relative;
+    overflow: hidden;
+  }
+
+  .card__image {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .card-text {
+    color: #f3f3f3f2;
+  }
+
+  .price {
+    margin-top: 30px;
+    color: #a1a1a1;
+  }
+
+  .merch {
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1300px;
+    display: flex;
+    align-items: center;
+    align-items: flex-start;
+    gap: 264px;
+  }
+
+  .contacts_buttons {
+    display: flex;
+  }
+
+  a.button {
+    color: #fff;
+    padding: 12px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: Tahoma;
+    font-size: 18px;
+    line-height: 1;
+    font-weight: 100;
+  }
+
+  .cont_head {
+    font-size: 30px;
+  }
+
+  a.button:hover {
+    background: #d63434;
+    border: 1px solid #d63434;
+  }
+
+  .cont_head {
+    display: flex;
+    align-items: center;
+    align-items: flex-start;
+  }
+
+  .contacts {
+    max-width: 600px;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  hr {
+    margin-top: 200px;
+    color: #e3e3e3;
+  }
+
+  .contacts-footer {
+    color: #C7C7C7;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1300px;
+    display: flex;
+    align-items: center;
+    align-items: flex-start;
+    gap: 264px;
+  }
+
+  .rights {
+    color: #C7C7C7;
+    margin-top: 100px;
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+
+  li:hover {
+    color: azure;
+  }
+
+
+  .price:hover {
+    color: azure
+  }
